@@ -1,0 +1,51 @@
+.saleHunter{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.header{
+    grid-column: span 3 / auto;
+}
+
+.adverts{
+    grid-column: span 2 / auto;
+}
+.advertItems{
+    grid-column: span 2 / auto;
+}
+.discountCategories{
+    grid-row: span 2 / auto;
+}
+
+.movingAdvert{
+    grid-column: span 3 / auto;
+}
+
+.electronics{
+    grid-column: span 3 / auto;
+}
+
+.apparel{
+    grid-column: span 3 / auto;
+}
+
+.bProducts{
+    grid-column: span 3 / auto;
+}
+
+.fitness{
+    grid-column: span 3 / auto;
+}
+
+.dealsWeek{
+    grid-column: span 3 / auto;
+}
+
+.storeArea{
+    grid-column: span 3 / auto;
+}
+
+.footer{
+    grid-column: span 3 / auto;
+}
+
